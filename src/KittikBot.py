@@ -184,12 +184,6 @@ def print_periodical(bot, update, args):
         bot.edit_message_text(chat_id=sended_message.chat.id, message_id=sended_message.message_id, text=args[1] * i)
 
 
-def plus_test(bot, update, args):
-    args.append('+')
-    print(args)
-    print_periodical(bot, update, args)
-
-
 def plus(bot, update, args):
     args.append('+')
     print_periodical(bot, update, args)
